@@ -1,10 +1,12 @@
+import br.com.alura.StremingKali.modelos.Filmes;
+
 public class Principal {
     public static void main(String[] args) {
         Filmes meuFilme = new Filmes();
-        meuFilme.nome = "Kung Fu Panda";
-        meuFilme.duracaoEmMinutos = 140;
-        meuFilme.anoDeLancamento = 2012;
-        meuFilme.disponivelNoPlano = true;
+        meuFilme.setNome("Kung Fu Panda");
+        meuFilme.setDuracaoEmMinutos(140);
+        meuFilme.setAnoDeLancamento(2012);
+        meuFilme.setDisponivelNoPlano(true);
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
