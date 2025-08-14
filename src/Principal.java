@@ -1,4 +1,5 @@
 import br.com.alura.StremingKali.modelos.Filmes;
+import br.com.alura.StremingKali.modelos.Serie;
 
 public class Principal {
     public static void main(String[] args) {
@@ -19,10 +20,7 @@ public class Principal {
         Serie flash = new Serie();
         flash.setNome("Flash");
         flash.setAnoDeLancamento(2014);
-        flash.setDuracaoEmMinutos(45);
         flash.exibeFichaTecnica();
         flash.setNumeroTemporadas(9);
-        flash.setEpisodiosPorTemporada(23);
-
      }
 }
