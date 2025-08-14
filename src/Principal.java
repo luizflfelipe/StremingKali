@@ -14,5 +14,15 @@ public class Principal {
         meuFilme.avalia(10);
         System.out.println("Total de Avaliações: " + meuFilme.getTotalAvaliacoes());
         System.out.println("A média de avaliações do filme é: " + meuFilme.getObtemMedia());
+
+
+        Serie flash = new Serie();
+        flash.setNome("Flash");
+        flash.setAnoDeLancamento(2014);
+        flash.setDuracaoEmMinutos(45);
+        flash.exibeFichaTecnica();
+        flash.setNumeroTemporadas(9);
+        flash.setEpisodiosPorTemporada(23);
+
      }
 }
